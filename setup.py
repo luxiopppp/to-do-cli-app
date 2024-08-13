@@ -5,7 +5,7 @@ def read_requirements():
     return req.read().splitlines()
 
 setup(
-    name="to_do_cli_app",
+    name="to-do-cli-app",
     version="0.1.0",
     packages=find_packages(include=['to_do_cli_app', 'to_do_cli_app.*']),
     include_package_data=True,
@@ -29,6 +29,7 @@ setup(
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
     ],
     python_requires='>=3.12.3',
 )
