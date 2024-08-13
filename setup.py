@@ -28,6 +28,7 @@ setup(
     url='https://github.com/luxiopppp/to-do-cli-app',  # Replace with your repository URL
     classifiers=[
         'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
     ],
     python_requires='>=3.12.3',
 )
