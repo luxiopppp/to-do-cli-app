@@ -7,10 +7,14 @@ To install the `to-do-cli-app`, simply use `pip`:
 	pip install to-do-cli-app
 This will install the CLI app and make it available as a command-line tool.
 
-Once installed, you can start using the app by typing the following command in your terminal:
+Once installed, you can start using the app by typing the following command in your terminal...
+
+If you are in Linux:
 
 	todo-cli
+If you are on Windows:
 
+	todo-cli.exe
 ## Features
 The app provides an intuitive interface that allows you to:
 
