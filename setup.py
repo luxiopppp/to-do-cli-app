@@ -6,7 +6,7 @@ def read_requirements():
 
 setup(
     name="to-do-cli-app",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(include=['to_do_cli_app', 'to_do_cli_app.*']),
     include_package_data=True,
     package_data={

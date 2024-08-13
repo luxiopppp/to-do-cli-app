@@ -91,7 +91,7 @@ def new_file():
   
   with (TASKS_PATH / f"{nt_id}_tasks.txt").open("w") as f:
     set_active_file(f"{nt_id}_tasks.txt")
-    print(f"New task file created properly at {os.getcwd()}/tasks/")
+    print(f"New task file created properly")
 
 def change_file():
   """"""
